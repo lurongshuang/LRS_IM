@@ -27,6 +27,7 @@
         android:name="com.amap.api.v2.apikey"
         android:value="7e7a14f0a15685e911530d3ba9f204fa" />
  ```
+ ### 测试apk > https://www.pgyer.com/BOfn
  
 <div>
 <img src="https://github.com/lurongshuang/LRS_IM/blob/master/image/1.jpg" width="200"/>
