@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.register.SetPasswordActivity">
+
+    <include layout="@layout/include_toolbar_layout_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完善信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_25"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/login_LL"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_group_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输群id"
+            android:inputType="text"
+            android:textColor="@color/result_view"
+            android:textColorHint="#cccccc"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/login_LL"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输群昵称"
+            android:textColor="@color/result_view"
+            android:textColorHint="#cccccc"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/login_LL"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_group_url"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输群头像地址"
+            android:textColor="@color/result_view"
+            android:textColorHint="#cccccc"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+
+    <com.xuexiang.xui.widget.alpha.XUIAlphaButton
+        android:id="@+id/btn_comit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_41"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_35"
+        android:layout_marginRight="@dimen/dp_15"
+        android:background="@drawable/shape_btn_login"
+        android:text="完成"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_15" />
+</LinearLayout>

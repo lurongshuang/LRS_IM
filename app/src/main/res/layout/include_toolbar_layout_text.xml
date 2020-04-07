@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="?attr/colorPrimary1"
+        android:fitsSystemWindows="false"
+        android:orientation="horizontal">
+
+    <com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+        <com.hyrc.lrs.xunsi.view.FontIconView
+                android:id="@+id/iv_leftIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:background="?attr/colorPrimary1"
+                android:gravity="center"
+                android:text="@string/iconfanhui"
+                android:textColor="@color/TitleColor"
+                android:textSize="@dimen/sp_16" />
+    </com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout>
+
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/TitleColor"
+            android:textSize="@dimen/sp_16" />
+
+
+    <com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+        <com.hyrc.lrs.xunsi.view.FontIconView
+                android:id="@+id/tv_rightText"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/dp_10"
+                android:gravity="center"
+                android:text="@string/iconicon_search"
+                android:textColor="@color/TitleColor"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+        <TextView
+                android:id="@+id/tv_rightTextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/dp_10"
+                android:gravity="center"
+                android:textColor="@color/TitleColor"
+                android:textSize="@dimen/sp_16"
+                android:visibility="gone" />
+    </com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout>
+
+
+</LinearLayout>

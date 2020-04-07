@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="XUITheme.Phone">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorPrimary1">@color/colorPrimary</item>
+        <item name="colorPrimaryDark1">@color/colorPrimaryDark</item>
+        <item name="colorAccent1">@color/colorAccent</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <style name="AppBlueTheme" parent="XUITheme.Phone">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary1">@color/blue</item>
+        <item name="colorPrimaryDark1">@color/blue</item>
+        <item name="colorAccent1">@color/blue</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <!--加载动画-->
+    <style name="TransparentDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+    <!--窗体背景，这个背景能在第一时间显示, 避免启动时白屏，黑屏问题-->
+    <style name="XUITheme.Launch.Splash">
+        <!--         <item name="xui_config_splash_app_logo">@drawable/logo_ic</item>-->
+        <!--         <item name="xui_config_splash_company_logo">@drawable/ic_splash_company_logo_xuexiang</item>-->
+        <item name="android:windowBackground">@drawable/splash_file</item>
+    </style>
+    <!--activity 淡入淡出-->
+    <style name="AnimActivity" parent="XUITheme.Launch">
+        <item name="android:windowAnimationStyle">@style/anim_fade</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="anim_fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_fade_out</item>
+    </style>
+    <!--登录-->
+    <style name="login_LL" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/dp_30</item>
+        <item name="android:layout_marginLeft">@dimen/dp_15</item>
+        <item name="android:layout_marginRight">@dimen/dp_15</item>
+        <item name="android:background">@drawable/shape_logo_bg</item>
+    </style>
+    <!--底部按钮-->
+    <style name="Button_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_marginBottom">@dimen/dp_2</item>
+        <item name="android:layout_marginTop">@dimen/dp_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+
+    </style>
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>

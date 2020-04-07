@@ -1,0 +1,3 @@
+rootProject.name = 'BmobTest'
+include ':app',':IMKit', ':CallKit', ':CallLib', ':recognizer', ':Sight'
+//, ':IMLib', ':RCSticker',

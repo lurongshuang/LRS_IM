@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.group.SelectActivity">
+
+    <include layout="@layout/include_toolbar_layout_text" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_42"
+        android:layout_marginBottom="@dimen/dp_43" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_42"
+        android:background="@color/translucent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_42"
+        android:layout_alignParentBottom="true"
+        android:background="@color/listTitlebg"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tvSelectNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="已选择0人"
+            android:textColor="@color/rc_gray"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tvOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="right"
+            android:text="确定"
+            android:textColor="@color/rc_gray"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+</RelativeLayout>

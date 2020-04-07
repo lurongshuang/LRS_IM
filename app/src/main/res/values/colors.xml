@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#76dadc</color>
+    <color name="colorPrimaryDark">#76dadc</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white_ru">#D2E9FF</color>
+    <color name="white">#fff</color>
+    <color name="black">#333333</color>
+    <color name="blue">#32c5f3</color>
+    <color name="green">#4ACC60</color>
+    <color name="pink">#6A2290</color>
+    <color name="blue_light">#53687D</color>
+    <color name="yellow">#FF7F24</color>
+    <color name="pink_dark">#4B0082</color>
+
+    <color name="translucent">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="TitleColor">#FFFFFF</color>
+    <color name="color_gray">#f5f5f5</color>
+    <color name="logo_bg">#f2f2f2</color>
+    <color name="result_view">#b0000000</color>
+    <color name="edu_text_more_color">#949494</color>
+    <color name="numbg">#fafbff</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="listTitlebg">#ededed</color>
+    <color name="listbottmbg">#e3e1e1</color>
+</resources>

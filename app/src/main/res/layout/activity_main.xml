@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_gray"
+    tools:context=".activity.main.MainActivity">
+
+    <include layout="@layout/include_toolbar_layout_text" />
+
+    <com.hyrc.lrs.xunsi.view.NoScrollViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.hyrc.lrs.xunsi.view.NoScrollViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/divider" />
+
+    <include layout="@layout/include_bottom_button" />
+
+</LinearLayout>
