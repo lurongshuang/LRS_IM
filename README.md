@@ -5,11 +5,11 @@
   
   1.需要将    Bmob.initialize(this, "1ad4db4503319e703ac4127b78827df5"); 换成自己的 后端云KEy  创建表与bean 下的 User、Group、GroupId_with_UserId实体类同步。
   
-  2. RongIM.init(this, "8luwapkv84hyl"); 
+ 2. RongIM.init(this, "8luwapkv84hyl"); 
       <meta-data
         android:name="RONG_CLOUD_APP_KEY"
         android:value="8luwapkv84hyl" />
-  替换成为自己的融云key
+        替换成为自己的融云key
   
   3.替换自己的高德地图key 
   
