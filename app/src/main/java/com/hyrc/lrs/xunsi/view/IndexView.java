@@ -17,7 +17,9 @@ import com.hyrc.lrs.xunsi.utils.densityUtil.DensityUtil;
 
 
 /**
- * @author 该view参考自https://blog.csdn.net/a_zhon/article/details/53214849
+ * @description 作用:
+ * @date: 2020/3/30
+ * @author: 卢融霜
  */
 public class IndexView extends View {
     /**

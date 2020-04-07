@@ -11,7 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * created by a on 2018/5/1
+ * @description 作用:
+ * @date: 2020/3/30
+ * @author: 卢融霜
  */
 public class SharedPreferencesHelper {
 

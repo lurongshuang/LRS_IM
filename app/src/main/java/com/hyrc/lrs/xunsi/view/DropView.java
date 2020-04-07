@@ -14,7 +14,9 @@ import com.hyrc.lrs.xunsi.R;
 import com.hyrc.lrs.xunsi.utils.densityUtil.DensityUtil;
 
 /**
- * @author SJ
+ * @description 作用:
+ * @date: 2020/3/30
+ * @author: 卢融霜
  */
 public class DropView extends View {
     /**

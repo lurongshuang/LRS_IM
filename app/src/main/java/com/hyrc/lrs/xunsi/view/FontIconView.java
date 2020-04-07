@@ -7,7 +7,11 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
-
+/**
+ * @description 作用:
+ * @date: 2020/3/30
+ * @author: 卢融霜
+ */
 @SuppressLint("AppCompatCustomView")
 public class FontIconView extends TextView {
     public FontIconView(Context context) {
