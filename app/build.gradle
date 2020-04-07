@@ -21,13 +21,13 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file('D:\\test\\BmobTest\\app\\Bmobtest.jks')
+            storeFile file('D:\\test\\LRS_IM\\app\\Bmobtest.jks')
             storePassword 'LRS2212709787'
             keyAlias = 'galiao'
             keyPassword 'LRS2212709787'
         }
         debug {
-            storeFile file('D:\\test\\BmobTest\\app\\Bmobtest.jks')
+            storeFile file('D:\\test\\LRS_IM\\app\\Bmobtest.jks')
             storePassword 'LRS2212709787'
             keyAlias = 'galiao'
             keyPassword 'LRS2212709787'

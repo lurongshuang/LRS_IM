@@ -1,4 +1,4 @@
-package com.lrs.bmobtest
+package com.lrs.xunsi
 
 import org.junit.Test
 
